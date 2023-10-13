@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+  
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    text-align: center !important;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(45, 160, 72);
+}
+
+.inputs {
+    margin: 10px 0;
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.inputs:focus {
+    box-shadow: 0 0 5px 5px rgba(96, 128, 231, 0.2);
+}
+
+.formSignUp {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 100px;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+.submit {
+    background-color: rgb(227, 227, 227);
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.fa-check {
+    color: rgb(34, 220, 53);
+    position: absolute;
+    top: 19px;
+    right: 11px;
+}
+
+.fa-xmark {
+    color: red;
+    position: absolute;
+    top: 19px;
+    right: 14px;
+}
+
+.successRegisteration {
+   margin: 0; 
+   top: 50%;                     
+   transform: translate(0, -50%);
+   position: absolute;
+   width: 426px;
+   height: 358px;
+   border-radius: 5px;
+   box-shadow: 0 0 5px 5px rgba(0,0,0,0.2); 
+   z-index: 3;
+}
+
+.wrapperFirst{
+    height: 40%;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(118, 224, 189);
+    display: block;
+    padding-top: 21px;
+}
+
+.wrapperSecond{
+    height: 60%;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    background-color: white;
+    padding-top: 30px;
+}
+
+.checkMark {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    fill: white;
+}
+
+.titleGreat {
+    text-align: center !important;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 79, 79);
+    font-size: 33px;
+}
+
+.someText {
+    text-align: center !important;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(79, 79, 79);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.buttonStart {
+    width: 156px;
+    height: 45px;
+    margin: 24px auto;
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(255, 183, 0);
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.gasket {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(209, 206, 206, 0.6);
+    z-index: 2;
+    position: absolute;
+}
+
+
+
